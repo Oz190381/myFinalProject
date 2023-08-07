@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="tests.LoginTest" />
+			<class name="tests.LoginFailedTest" />
+			<class name="tests.BuyProductTest" />
+			<class name="tests.BuyFromProductsPageTest" />
+			<class name="tests.RemoveFromProductsPageTest" />
+			<class name="tests.LinkValidationTest" />
+			<class name="tests.CartTest" />
+			<class name="tests.LogoutFromCartPageTest" />
+			<class name="tests.CheckoutFailedTest" />
+			<class name="tests.CheckoutTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
